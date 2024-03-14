@@ -1,0 +1,94 @@
+<%- include partials/header.ejs %>
+
+
+
+  <style>
+    /* Make the image fully responsive */
+
+    .carousel-inner img {
+      width: 100%;
+      height: 25%;
+    }
+  </style>
+
+  <body>
+
+    <div id="demo" class="carousel slide" data-ride="carousel">
+      <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+        <li data-target="#demo" data-slide-to="3"></li>
+        <li data-target="#demo" data-slide-to="4"></li>
+
+      </ul>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://i.pinimg.com/736x/b4/d2/ed/b4d2edd2736d12e06a261e8caefa3113.jpg" alt="slide one"
+            width="100vh" height="100vh">
+          <div class="carousel-caption">
+            <h3>FootBALL</h3>
+            <p>Football, also called association football or soccer, is a game involving two teams of 11 players who try
+              to maneuver
+              the ball into the other team's goal without using their hands or arms. The team that scores more goals
+              wins. Football is
+              the world's most popular ball game in numbers of participants and spectators.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://www.bjsports.live/wp-content/uploads/2023/05/1683564397646_MS-Dhoni-and-Suresh-Raina-s7ViQI.jpeg"
+            alt="slide two" width="100vh" height="100vh">
+          <div class="carousel-caption">
+            <h3>CRICKET</h3>
+            <p>This game consists of two teams that include 11 players each. The main aim of the game is to score the
+              highest number of
+              runs. It is played on a pitch in a field that is well-maintained for the same purpose.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://d2cx26qpfwuhvu.cloudfront.net/munster/wp-content/uploads/2023/06/22122729/Ruadhan-Quinn.jpg"
+            alt="slide three" width="100vh" height="100vh">
+          <div class="carousel-caption">
+            <h3>Rugby</h3>
+            <p>Rugby is a 15-a-side team sport. The object of the game is to ground the ball behind the opponent's try
+              line, into what
+              is called the in-goal area. Rugby is played both with the ball in hand and by kicking the ball. However,
+              when the ball
+              is being carried in hand it can only be thrown or handed off backwards.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://img.olympics.com/images/image/private/t_s_w960/t_s_16_9_g_auto/f_auto/primary/wblximfspececoylbikg"
+            alt="slide four" width="100vh" height="100vh">
+          <div class="carousel-caption">
+            <h3>HOCKEY</h3>
+            <p>Hockey is a kind of invasion game that is played by two teams of eleven players. Each team's goal is to
+              push a small and
+              heavy hockey ball into their opposition's goal.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://rayawilkins.weebly.com/uploads/2/7/0/1/27011265/1674798_orig.jpg" alt="slide five"
+            width="100vh" height="100vh">
+          <div class="carousel-caption">
+            <h3>BasketBAll</h3>
+            <p>It is a team sport that involves two teams of five active players each trying to score points against one
+              another by
+              throwing a ball through a 300 cm (10 feet) high hoop (the 'basket') under organised rules.</p>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+
+
+
+    <%- include partials/footer.ejs %>
